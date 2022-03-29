@@ -4,7 +4,7 @@
 }
 
 .nav-logo-text, .nav-logo-text:hover{
-    color:#FFF;
+    color:#00285F;
 }
 
 .main-menu{
@@ -15,14 +15,14 @@
 }
 
 .main-menu a{
-    color: rgba(255, 255, 255, 0.5);
+    color: #00285F;
 }
 
 .main-menu a:hover{
-    color: #FFF;
+    color: #00285F;
 }
 
 .main-menu a.active{
-    color: #FFF;
+    color: #00285F;
     font-weight: 700;
 }

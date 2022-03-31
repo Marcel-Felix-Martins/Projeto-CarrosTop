@@ -1,7 +1,7 @@
 import '/home/marcel/Documentos/ProjetoDesafio/frontend/src/components/ProductCard/styles.css';
 
-import ProductImg from '/home/marcel/Documentos/ProjetoDesafio/frontend/src/assets/images/Product-car.svg';
 
+import CardImage from '/home/marcel/Documentos/ProjetoDesafio/frontend/src/assets/images/car-card.svg';
 
 const ProductCard = () =>{
 
@@ -9,7 +9,7 @@ const ProductCard = () =>{
 return(
     <div className="base-card product-card">
         <div className="card-top-container">
-            <img src={ProductImg} alt="Imagem do produto" />
+            <img src={CardImage} alt="Imagem do produto" />
        </div>
        <div className="card-bottom-container">
            <h6>Nome do produto</h6>

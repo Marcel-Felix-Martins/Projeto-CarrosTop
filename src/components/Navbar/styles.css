@@ -1,5 +1,5 @@
 .main-nav{
-    min-height: 70px;
+    min-height: 65px;
     padding-left: 40px;
 }
 
@@ -10,19 +10,25 @@
 .main-menu{
     display: flex;
     font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
 }
 
 .main-menu a{
     color: #00285F;
+    padding: 0 45px 0 0;
 }
 
-.main-menu a:hover{
+.main-menu:hover{
     color: #00285F;
 }
 
 .main-menu a.active{
     color: #00285F;
     font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
+    }
 }

@@ -3,7 +3,8 @@ import Home from "./Pages/Home";
 import { BrowserRouter, Route ,Routes } from "react-router-dom";
 import Catalog from "./Pages/Catalog";
 
-const BRoutes = () => (
+function BRoutes () {
+  return(
         <BrowserRouter>
             <Navbar />
             <Routes>
@@ -14,6 +15,7 @@ const BRoutes = () => (
         </BrowserRouter>
 
     );
+}
 
 
     export default BRoutes;

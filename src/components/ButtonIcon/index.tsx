@@ -1,17 +1,17 @@
 import './styles.css';
 
-const ButtonIcon = () => {
+function ButtonIcon() {
     return (
-      <div className="btn-container">
+      <div className="btn-home-container">
         
-        <button className="btn btn-primary ">
+        <button className="btn-home btn-home-icon">
         <h6>Ver Catálogo</h6>
       </button>
-      
+
+      <div className="btn-home-icon-container">
+       </div>
+       
       </div>
-      
-  
-      
     );
   }
   
